@@ -1,0 +1,15 @@
+
+#header {
+	padding: 20px 0;
+	background-color: #0767e6;
+	background: rgba(#07, #67, #e6, .5);
+	color: white;
+	min-height: 380px;
+}
+
+#headerBg {
+	background-image: url('/img/theme1/clouds.png');
+	background-size: cover;
+	background-position: center;		
+}
+
