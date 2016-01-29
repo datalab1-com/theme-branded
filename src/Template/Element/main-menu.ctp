@@ -7,7 +7,7 @@
 					<!-- the logo image --------------------------------------------------------->
 					
 					<!-- SMALL -->
-					<div class="hidden-xl hidden-lg hidden-md navbar-logo-xs">
+					<div class="hidden-xl hidden-lg hidden-md navbar-logo-xs"> 
 						<a class="navbar-brand headerHeight" href="/"><img src="/img/logo-flat.png" /></a>
 					</div>
 					

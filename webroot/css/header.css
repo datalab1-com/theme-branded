@@ -1,11 +1,9 @@
 
 #header {
 	padding: 20px 0;
-	background-color: #FF6900;
-	background-color: #0767e6;
-	background-color: #05A5D5;
+	background-color: #05A5D5; /* big blue */
 	color: white;
-	min-height: 380px;
+	min-height: 300px;
 }
 
 #headerBg {
@@ -44,14 +42,23 @@
 }
 
 .pricePanel {
+	margin-top: 20px;
+	margin-bottom: 0px;
 	background: rgba(0, 0, 0, .2); /* just darkens the bg color */
-	margin-top: 50px;
-	margin-bottom: 20px;
 	display: inline-block;
 	border: gray 1px solid;
 	border-radius: 15px;
-	padding: 20px;
-}	
+	padding: 20px 20px;
+}
+.moneySize {
+	font-size: 120px;
+	line-height: 140px;
+}
+.moneySizeCents {
+	vertical-align: text-top; 
+	font-size: 40%;"
+}
+	
 
 .cloudPanel {
 	padding: 0;
@@ -63,7 +70,7 @@
 	background-position: center;
 	
 	position: relative; 
-	top: 50px;
+	top: 30px;
 }
 
 .checkSide { 
@@ -81,14 +88,6 @@
 	line-height: 1.5em;
 }
 
-.moneySize {
-	font-size: 120px;
-}
-.moneySizeCents {
-	vertical-align: text-top; 
-	font-size: 40%;"
-}
-
 .header .btn-lg {
 	font-size: 1.7em;
 	margin-top: 10px;
@@ -97,6 +96,11 @@
 /****************************************************************************************
 	@media overrides
 ****************************************************************************************/
+
+/* MD overrides */
+@media (min-width: 992px) and (max-width: 1200px) 
+{
+}
 
 /* SM overrides */
 @media (min-width: 768px) and (max-width: 991px) 

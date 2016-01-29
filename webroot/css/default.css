@@ -11,12 +11,13 @@ generic setting short-cuts
 .bgGreen { background-color: #70DC70; }
 .bgBlue { background-color: #286090; }
 .bgOrange { background-color: orange; }
+.bgYellow { background-color: yellow; }
 	
 .padding0 { padding: 0; }
 .margin0 { margin: 0; }
 	
 .marginBottom0 { margin-bottom: 0px !important; }
-.marginBottom10 { margin-bottom: 10px; }
+.marginBottom10 { margin-bottom: 10px !important; }
 .marginBottom20 { margin-bottom: 20px; }
 .marginBottom30 { margin-bottom: 30px; }
 .marginBottom40 { margin-bottom: 40px; }
