@@ -161,9 +161,16 @@ class AppController extends Controller
 			$this->set('startTimer', true); // not started
 		}
 				
-		$this->set('site_title', 'Devspace: Technology Services, Design, and Development');
-		$this->set('site_author', 'devspace.co');	
+		$this->set('site_title', 'Site Title');
+		$this->set('site_author', 'Site Author');	
 		$this->set('debug', ($this->request->env('HTTP_HOST') == 'localhost'));			
+		
+		// show better message in page title 
+		$action = ucfirst($this->request->params['action']);
+		if ($action == 'Display')
+			$action = 'Fast and Reliable Web Site Hosting';
+			
+		$this->set('titleAction', $action);
 	}
 
     /**

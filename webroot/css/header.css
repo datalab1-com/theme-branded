@@ -13,3 +13,133 @@
 	background-position: center;		
 }
 
+#header h1, #header h2 {
+	max-width: 700px; 
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header h1 {
+	font-size: 4em;
+	margin-bottom: 30px;
+}
+
+#header h2 {
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+
+#header ul {
+	text-align: left;
+	font-size: 1.5em;
+	list-style-image: url('/img/theme1/check-flake.png');
+}		
+#header ul  li{
+	margin-bottom: 20px;
+}
+
+.sampleStuff {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.pricePanel {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+	background-color: #0654BA;
+	border: gray 1px solid;
+	border-radius: 15px;
+	padding: 20px;
+}	
+
+.cloudPanel {
+	padding: 0;
+	padding-top: 50px;
+	
+	height: 150px;
+	background-image: url('/img/theme1/clouds-header.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	position: relative; 
+	top: 50px;
+}
+
+.checkSide { 
+	font-size: 18px; 
+	padding: 5px 10px; 
+	float: left; 
+	vertical-align: top;
+	line-height: .9em;
+	color: #70DC70;
+}
+.checkSideText { 
+	font-size: 1.4em; 
+	display: table; 
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.moneySize {
+	font-size: 120px;
+}
+.moneySizeCents {
+	vertical-align: text-top; 
+	font-size: 40%;"
+}
+
+.header .btn-lg {
+	font-size: 1.7em;
+	margin-top: 10px;
+}
+
+/****************************************************************************************
+	@media overrides
+****************************************************************************************/
+
+/* SM overrides */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	.colSmPadding {
+		padding-left: 50px;
+		background-color: orange;
+	}
+	
+	.cloudPanel {
+		padding-top: 50px;
+		margin-top: -50px;
+	}
+	
+	.pricePanel {
+		margin-top: 20px;
+	}
+	
+}
+
+/* XS overrides */
+@media (max-width: 767px) 
+{		
+	#header h1 {
+		font-size: 3em;
+		margin-bottom: 20px;
+	}
+
+	#header h2 {
+		font-size: 1.4em;
+		margin-bottom: 20px;
+	}
+
+	.moneySize {
+		font-size: 100px;
+	}
+		
+	.cloudPanel {
+		padding-top: 50px;
+		margin-top: -50px;
+	}
+	
+	.pricePanel {
+		margin-top: 20px;
+	}
+	
+}

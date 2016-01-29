@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'Datalab Themes';
+$cakeDescription = 'Datalab Hosting';
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +22,7 @@ $cakeDescription = 'Datalab Themes';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?= $cakeDescription ?>:
-        <?= $this->fetch('title') ?>
+        <?= $titleAction ?>
     </title>
     <?= $this->Html->meta('icon') ?>
 

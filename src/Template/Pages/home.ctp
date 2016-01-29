@@ -8,32 +8,11 @@
 
 <div id="headerBg">
 <div id="header" class="header">
-	<div style="" class="container text-center">
+<div class="padding0 container text-center">
 
-		<h1 class="marginBottom30 font-open-sans-400"><span>Big Header Message Text</span></h1>
-						
-		<div style="max-width: 700px; margin: auto;">
-			<h2 id="" class="font-open-sans-400" ><span class="">Longer Header Text Content Goes Here</span></h2>
-		</div>
+<?php echo $this->element('header'); ?>
 
-		<!-- for XS this part jumps down to section 1 -->
-		<div class="hidden-xs" style="max-width: 700px; margin: auto;">
-		
-			<h2 id="" class="marginBottom40 font-open-sans-400" ><span class=""></span>Ready to do the call to action?</h2>
-						
-			<form action="/users/register">
-				<button class="textWhite marginBottom20 btn btn-submit btn-lg bgBlue"><span class="glyphicon glyphicon-hand-right"></span>&nbsp;Call To Action</button>
-			</form>
-			
-		</div>				
-
-		<!-- XS only after button jumps down -->
-		<div class="hidden-xl hidden-lg hidden-md hidden-sm" style="margin: auto;">
-			<h2 style="font-size: 1.8em; " class="font-open-sans-400" >(The Action button has jumped down to Section 1)</h2>
-		</div>
-
-		
-	</div>
+</div>
 </div>
 </div>
 
@@ -42,7 +21,7 @@
 <!--------------------------------------------------------------------------------------->
 <section id="techLogos" class="">
 	<div class="container">	
-		<div class="row text-center">			
+		<div class="row text-center marginBottom30">			
 		
 			<div class="col-md-2 col-sm-4 col-xs-4">
 				<img src="/img/theme1/wordpress.png" />
@@ -73,13 +52,7 @@
 
 <section id="sectionFeatures" class="sectionGray">
 	<div class="container">	
-		<div class="text-center">			
-			
-			<div class="hidden-xl hidden-lg hidden-md hidden-sm" style="max-width: 700px; margin: auto;">
-				<form action="/users/register">
-					<button class="textWhite marginBottom20 btn btn-submit btn-lg bgBlue"><span class="glyphicon glyphicon-hand-right"></span>&nbsp;Join Us Now</button>
-				</form>
-			</div>				
+		<div class="text-center">					
 			
 			<h1 class="font-open-sans-300">
 				Section with Column Glyph Toppers

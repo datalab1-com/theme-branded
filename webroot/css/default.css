@@ -1,6 +1,8 @@
-/*****************************************************************/
-/* fast generic settings */
-/*****************************************************************/
+/*****************************************************************
+
+generic setting short-cuts
+
+*****************************************************************/
 
 .textWhite {	color: white; }
 	
@@ -8,7 +10,12 @@
 .bgRed {	background-color: red; }
 .bgGreen { background-color: #70DC70; }
 .bgBlue { background-color: #286090; }
+.bgOrange { background-color: orange; }
 	
+.padding0 { padding: 0; }
+.margin0 { margin: 0; }
+	
+.marginBottom0 { margin-bottom: 0px !important; }
 .marginBottom10 { margin-bottom: 10px; }
 .marginBottom20 { margin-bottom: 20px; }
 .marginBottom30 { margin-bottom: 30px; }
@@ -32,6 +39,18 @@
 .glyphSideText { display: table; }
 
 .minHeight100 {	min-height: 100px; }
+
+.font-open-sans-400 { font-weight: 400; font-family: 'Open Sans', sans-serif; }
+.font-open-sans-300 { font-weight: 300; font-family: 'Open Sans', sans-serif; }
+.font-open-sans { font-family: 'Open Sans', sans-serif; }
+
+.fontSize2 { font-size: 2em; }
+.fontSize3 { font-size: 3em; }
+.fontSize4 { font-size: 4em; }
+.fontSize5 { font-size: 5em; }
+
+.fontPercent90 { font-size: .9em; }
+.fontPercent60 { font-size: .6em; }
 
 /*****************************************************************/
 /* navbar and slider */
@@ -76,7 +95,7 @@
 }	
 
 #techLogos {
-	padding-bottom: 20px;
+	/* padding-bottom: 10px; */
 }
 
 #techLogos img {
@@ -322,13 +341,6 @@
 	xmax-height: 72px;	/* used by js to reset after height gets changed by js */
 }
 
-.font-open-sans-400 {
-	font-weight: 400; font-family: 'Open Sans', sans-serif;
-}
-.font-open-sans-300 {
-	font-weight: 300; font-family: 'Open Sans', sans-serif;
-}
-
 .message {
 	padding: 10px;
 	font-size: 1.2em;
@@ -372,19 +384,7 @@ Media specific overrides go below here
 
 /****************** overrides for size XS *******************************/	
 @media (max-width: 767px) 
-{
-/* not yet: fixed top still has problems
-	.navbar-fixed-top {
-		border-radius: 0;
-		position: static;
-	}
-  
-	.headerHeightOffset {
-		height: 0px;		/ * this gets changed by js * /
-		max-height: 72px;	/ * used by js to reset after height gets changed by js * /
-	}
-*/
-		
+{		
 	section h1 {
 		font-size: 1.7em;
 	}
