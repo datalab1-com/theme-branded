@@ -186,7 +186,7 @@ generic setting short-cuts
 		margin-bottom: 20px;
 	}
 	
-	.sectionYellow, .sectionBlue, .sectionWhite, .sectionGray {
+	.sectionOrange, .sectionYellow, .sectionBlue, .sectionWhite, .sectionGray {
 		padding: 50px 0 40px 0;
 	}
 	
@@ -197,6 +197,10 @@ generic setting short-cuts
 	}
 	
 	.sectionYellow {
+		background-color: yellow;
+		color: white;
+	}
+	.sectionOrange {
 		background-color: #FF6900;
 		color: white;
 	}

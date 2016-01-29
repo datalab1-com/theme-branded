@@ -1,8 +1,9 @@
 
 #header {
 	padding: 20px 0;
+	background-color: #FF6900;
 	background-color: #0767e6;
-	background: rgba(#07, #67, #e6, .5);
+	background-color: #05A5D5;
 	color: white;
 	min-height: 380px;
 }
@@ -20,7 +21,7 @@
 }
 
 #header h1 {
-	font-size: 4em;
+	font-size: 4.2em;
 	margin-bottom: 30px;
 }
 
@@ -43,10 +44,10 @@
 }
 
 .pricePanel {
+	background: rgba(0, 0, 0, .2); /* just darkens the bg color */
 	margin-top: 50px;
 	margin-bottom: 20px;
 	display: inline-block;
-	background-color: #0654BA;
 	border: gray 1px solid;
 	border-radius: 15px;
 	padding: 20px;

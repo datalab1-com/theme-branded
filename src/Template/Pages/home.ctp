@@ -6,15 +6,15 @@
 <!-- Header -->
 <!--------------------------------------------------------------------------------------->
 
-<div id="headerBg">
-<div id="header" class="header">
-<div class="padding0 container text-center">
+<section id="headerBg" class="">
+	<div id="header" class="header">
+		<div class="padding0 container text-center">
 
-<?php echo $this->element('header'); ?>
+			<?php echo $this->element('header'); ?>
 
-</div>
-</div>
-</div>
+		</div>
+	</div>
+</section>
 
 <!--------------------------------------------------------------------------------------->
 <!-- SECTION: 0 - thin row at the top for the tech logos -->
@@ -184,7 +184,7 @@
 <!-- SECTION: 4 - 2 columns with side glyphs -->
 <!--------------------------------------------------------------------------------------->
 		
-<section id="sectionFeatures2" class="sectionYellow">
+<section id="sectionFeatures2" class="sectionOrange">
 	<div class="container">	
 		<div class="">							
 			
