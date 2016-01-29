@@ -1,7 +1,7 @@
 <div class="row padding0 margin0">	
 	<div class="col-md-6">
 	
-		<div class="marginTop40 hidden-md hidden-sm hidden-xs"></div>
+		<div class="xmarginTop40 hidden-md hidden-sm hidden-xs"></div>
 		<div class="marginTop20 hidden-xl hidden-lg"></div>
 	
 		<h1 class="">Full Service Hosting</h1>
@@ -41,6 +41,10 @@
 				</div><!-- col -->
 			</div><!-- colSmPadding -->
 		</div><!-- row -->
+		
+		<div class="hidden-md hidden-sm hidden-xs"><!-- md only -->
+			<h3 class="">Cancel Anytime!</h3>
+		</div>
 		
 		<!-- banner not used, hidden to all ->
 		<div style="text-align: center;" class="row marginTop20 hidden-xl hidden-lg hidden-md hidden-sm hidden-xs">

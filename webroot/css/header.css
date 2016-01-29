@@ -50,15 +50,16 @@
 	border-radius: 15px;
 	padding: 20px 20px;
 }
+
 .moneySize {
 	font-size: 120px;
-	line-height: 140px;
+	line-height: 100px; /* this keeps vertical-align from making the line height huge */
 }
+
 .moneySizeCents {
-	vertical-align: text-top; 
+	vertical-align: 50px; /* without the line-height set above, this makes the line huge */
 	font-size: 40%;"
 }
-	
 
 .cloudPanel {
 	padding: 0;
