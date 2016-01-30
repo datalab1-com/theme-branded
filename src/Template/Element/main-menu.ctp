@@ -38,7 +38,7 @@
 								
 				<li class=""><a class="" href="/kbase/faq/faq">FAQ</a></li>
 				<li class=""><a class="" href="<?php echo $urlContact; ?>">CONTACT</a></li>
-				<li class=""><a class="" href="/users/register">REGISTER</a></li>
+				<li class=""><a class="" href="/users/signup">SIGN UP</a></li>
 				
 				<li class="dropdown mega-menu"><!-- LOGIN/LOGOUT -->
 					<?php if ($isLoggedIn) : ?>

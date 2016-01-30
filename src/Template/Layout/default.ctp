@@ -27,7 +27,8 @@ $cakeDescription = 'Datalab Hosting';
     <?= $this->Html->meta('icon') ?>
 
 	<!-- FONTS -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" >	
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>	
 	
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">

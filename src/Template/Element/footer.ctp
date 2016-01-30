@@ -10,7 +10,7 @@
 				<h4 class="letter-spacing-5">SITE MAP</h4>
 				<ul class="list-unstyled">
 					<li><span class="glyphicon glyphicon-triangle-right"></span><a href="/">Home</a></li>
-					<li><span class="glyphicon glyphicon-triangle-right"></span><a href="/users/register">Register</a></li>
+					<li><span class="glyphicon glyphicon-triangle-right"></span><a href="/users/signup">Sign Up</a></li>
 					<li><span class="glyphicon glyphicon-triangle-right"></span><a href="/kbase/faq/faq">FAQ</a></li>
 					<li><span class="glyphicon glyphicon-triangle-right"></span><a href="/contacts/add">Contact Us</a></li>
 					<li><span class="glyphicon glyphicon-triangle-right"></span><a href="/users/login">Login</a></li>
@@ -50,12 +50,16 @@
 			<div class="col-md-3 col-sm-12 text-center">
 			
 				<div class="hidden-sm hidden-xs">
-					<img class="footerImage" src="/img/logo-footer.png" />
-					<p>&copy; <?= date("Y"); ?> - All Rights Reserved</p>
+					<p class="footerLogoText footerLogoMain">DATALAB1</p>
+					<p class="footerLogoText footerLogoSlug">HOSTING SOLUTIONS</p>
+					<!-- img class="" src="/img/logo-footer.png" /-->
+					<p class="copyright">&copy; <?= date("Y"); ?> - All Rights Reserved</p>
 				</div>
 				<div class="hidden-xl hidden-lg hidden-md clearfix">
-					<img class="xfooterImage" src="/img/logo-footer.png" />
-					<p>&copy; <?= date("Y"); ?> - All Rights Reserved</p>
+					<p class="footerLogoText footerLogoMainBigger">DATALAB1</p>
+					<p class="footerLogoText footerLogoSlug">HOSTING SOLUTIONS<br/>www.datalab1.com</p>
+					<!-- img class="" src="/img/logo-footer.png" /-->
+					<p class="copyright">&copy; <?= date("Y"); ?> - All Rights Reserved</p>
 				</div>
 			
 			</div><!-- col -->						

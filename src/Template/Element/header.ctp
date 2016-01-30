@@ -43,7 +43,7 @@
 		</div><!-- row -->
 		
 		<div class="hidden-md hidden-sm hidden-xs"><!-- md only -->
-			<h3 class="">Cancel Anytime!</h3>
+			<h3 class="">Monthly Plan, Cancel Anytime</h3>
 		</div>
 		
 		<!-- banner not used, hidden to all ->

@@ -101,6 +101,8 @@
 /* MD overrides */
 @media (min-width: 992px) and (max-width: 1200px) 
 {
+.checkSideText { 
+	font-size: 1.3em; 
 }
 
 /* SM overrides */

@@ -18,13 +18,6 @@
 	text-decoration: none;
 }
 
-.copyright {
-	background-color: #2A2A2A;
-	color: #A9A9A9;
-	min-height: 80px;
-	padding: 30px 0;
-}
-
 .btn-footer {
 	background-color: #4E4E4E;
 	color: #DCDCDC;
@@ -60,4 +53,30 @@
 .footerImage {
 	width: 100%;
 	max-width: 250px;
+}
+
+.footerLogoText {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 900;
+	padding: 0;
+	margin: 0;
+	color: #4D4D4D
+}
+
+.footerLogoMain {
+	font-size: 30px;
+}
+.footerLogoMainBigger {
+	font-size: 40px;
+}
+
+.footerLogoSlug {
+	position: relative; 
+	top: -10px; 
+	font-size: 14px;	
+}
+
+.copyright {
+	color: #4D4D4D;
+	font-weight: bold;
 }

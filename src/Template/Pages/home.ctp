@@ -55,26 +55,39 @@
 		<div class="text-center">					
 			
 			<h1 class="font-open-sans-300">
-				Section with Column Glyph Toppers
+				Clean, Reliable, Secure
 			</h1>
 			
 			<h2 class="marginBottom30 font-open-sans-300">
-				List Item Bullets are Custom Images
+				Build and host your web site on the cleanest hosting around.
 			</h2>
 			
 			<div class="clearfix">
 				
 				<div class="row font-open-sans-400">
+
+					<div class="col-md-3 col-sm-6">
+						<div class="">
+							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-user"></span></div>
+							<h2>Simple</h2>
+							<ul>
+								<li>Easy Control Panel</li>
+								<li>1-click Script Install</li>
+								<li>100% Green Energy</li>
+								<li>99.9% Uptime guarantee</li>
+							</ul>
+						</div>
+					</div>
 				
 					<div class="col-md-3 col-sm-6">
 						<div class="">
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-lock"></span></div>
 							<h2>Secure</h2>
 							<ul>
-								<li>Very Secure</li>
-								<li>Unbreakable</li>
-								<li>Unstoppable</li>
-								<li>Incorregible</li>
+								<li>Flexible &amp; Secure</li>
+								<li>Server Level Security</li>
+								<li>Secure Infrastructure</li>
+								<li>Raid 10 Storage</li>
 							</ul>
 						</div>
 					</div>
@@ -84,23 +97,10 @@
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-signal"></span></div>
 							<h2>Speed</h2>
 							<ul>
-								<li>Fast Loading</li>
+								<li>Tier 1 Bandwidth</li>
 								<li>Fast Downloads</li>
-								<li>Even faster performance</li>
-								<li>Fastest in its class</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-6">
-						<div class="">
-							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-user"></span></div>
-							<h2>Simple</h2>
-							<ul>
-								<li>Simple to use</li>
-								<li>Easy to understand</li>
-								<li>Simple to upgrade</li>
-								<li>Easy to explain</li>
+								<li>Fast Performance</li>
+								<li>Multi-Gigabyte Network</li>
 							</ul>
 						</div>
 					</div>
@@ -110,10 +110,10 @@
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-scale"></span></div>
 							<h2>Scalable</h2>
 							<ul>
-								<li>Scales up with your business</li>
-								<li>Easy to scale</li>
-								<li>Unmetered Scaling</li>
-								<li>Addional Capacity</li>
+								<li>Grows with your business</li>
+								<li>Seamless Scaling</li>
+								<li>Additional Capacity</li>
+								<li>Free Nightly Backup</li>
 							</ul>
 						</div>
 					</div>
@@ -155,6 +155,8 @@
 <!-- SECTION: 3 - Plain text section -->
 <!--------------------------------------------------------------------------------------->
 
+<!-- Not used ---------------------------------------------
+
 <section class="sectionWhite">
 <div class="container">	
 
@@ -180,6 +182,8 @@
 </div>
 </section>
 
+NOT USED ------------------------------------------------>
+
 <!--------------------------------------------------------------------------------------->
 <!-- SECTION: 4 - 2 columns with side glyphs -->
 <!--------------------------------------------------------------------------------------->
@@ -190,11 +194,11 @@
 			
 			<div class="text-center">
 				<h1 class="font-open-sans-300">
-					Columns with side Glyphs
+					Become one of our valued customers
 				</h1>
 				
 				<h2 class="marginBottom30 font-open-sans-300">
-					Glyphs always look good
+					Let us handle your hosting so you have time to grow your business
 				</h2>
 			</div>
 			
@@ -205,12 +209,11 @@
 					<div class="col-sm-6 minHeight100">
 					
 						<div class="glyphSide">
-							<span class="glyphicon glyphicon-glass"></span>
+							<span class="glyphicon glyphicon-tree-conifer"></span>
 						</div>
 						
 						<div class="glyphSideText">
-							<p>This is the column text next to the glyph. This is the column text next to the glyph. This is the column text next to the glyph. 
-							This is the column text next to the glyph. This is the column text next to the glyph. This is the column text next to the glyph.</p>
+							<p>Our servers use Server-grade Intel processors, memory, hard drives and equipment. Our servers are also offset 300% by wind energy making them not only green, but carbon reducing.</p>
 						</div>
 
 					</div><!-- col -->
@@ -222,7 +225,7 @@
 						</div>
 						
 						<div class="glyphSideText">
-							<p>This is the column text next to the glyph. This is the column text next to the glyph. This is the column text next to the glyph. </p>
+							<p>Hosting is what makes your site visible on the web. We offer fast, reliable plans for every need - from a basic blog to high-powered site. Designer? Developer? We've got you covered too.</p>
 						</div>
 						
 					</div><!-- col -->
@@ -234,11 +237,11 @@
 					<div class="col-sm-6 minHeight100">
 
 						<div class="glyphSide">
-							<span class="glyphicon glyphicon-apple"></span>
+							<span class="glyphicon glyphicon-shopping-cart"></span>
 						</div>
 						
 						<div class="glyphSideText">
-							<p>This is the column text next to the glyph. This is the column text next to the glyph. </p>
+							<p>A website is vital to any modern business. Even if you sell locally or by word of mouth, your customers are looking for you on the web, if only to check your hours. Find everything you need here.</p>
 						</div>
 						
 					</div><!-- col -->
@@ -246,11 +249,11 @@
 					<div class="col-sm-6 minHeight100">
 
 						<div class="glyphSide">
-							<span class="glyphicon glyphicon-fire"></span>
+							<span class="glyphicon glyphicon-picture"></span>
 						</div>
 						
 						<div class="glyphSideText">
-							<p>This is the column text next to the glyph but on the right. </p>
+							<p>Create a professional web site just like that.  Choose from hundres of customizable designs, tailored to your business.</p>
 						</div>
 						
 					</div><!-- col -->
