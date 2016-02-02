@@ -83,7 +83,7 @@
 		
 		<div class="cloudPanel" >
 		
-			<form class="marginTop10" action="/users/register">
+			<form class="marginTop10" action="/users/signup">
 				<button class="btn btn-primary btn-lg bgGreen">Get Started Now</button>
 			</form>
 			

@@ -172,7 +172,7 @@
 	
 	<div class="row text-center marginTop50">
 		<div class="header">
-			<form action="/users/register">
+			<form action="/users/signup">
 				<button class="textWhite marginBottom20 btn btn-submit btn-lg bgGreen"><span class="glyphicon glyphicon-user"></span>&nbsp;Call to Action!</button>
 			</form>
 			
