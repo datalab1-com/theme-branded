@@ -47,16 +47,102 @@ class UsersTable extends Table
         $validator
             ->add('id', 'valid', ['rule' => 'numeric'])
             ->allowEmpty('id', 'create');
-
+	
         $validator
             ->add('email', 'valid', ['rule' => 'email'])
             ->requirePresence('email', 'create')
-            ->notEmpty('email');
+            ->notEmpty('email', 'Email address is requiered')
+			;
+			
 
         $validator
             ->requirePresence('password', 'create')
-            ->notEmpty('password');
+            ->notEmpty('password', 'Password is required')			
+			->add('password', [
+				'minLength' => [
+					'rule' => ['minLength', 6],
+					'message' => 'Password must be at least 6 characters'
+				]
+			])
+			->add('password', 'custom', [
+				'rule' => function ($value, $context) {
+							
+							$p = $context['data']['password'];
+							// password must contain one of each: number, uppler- and lower-case letter
+							if (preg_match('/[0-9]/', $p))
+							{
+								if (preg_match('/[A-Z]/', $p))
+								{
+									if (preg_match('/[a-z]/', $p))
+									{
+										return true;
+									}
+								}
+							}
+							
+							//debug($context['data']['password']);die;
+							return false;
+						},
+				'message' => 'Password must contain numbers and upper- and lower-case letters'
+			])			
+		;
+		
+		// First Name
+        $validator
+            ->requirePresence('firstName', 'create', 'First Name is required')
+            ->notEmpty('firstName', 'First Name is required')			
+			->add('firstName', [
+				'minLength' => [
+					'rule' => ['minLength', 2],
+					'message' => 'First Name must be at least 2 letters'
+				]
+			])
+			->add('firstName', 'custom', [
+				'rule' => function ($value, $context) {
+				
+							$p = $context['data']['firstName'];
+							
+							// name must contain only letters
+							if (ctype_alpha($p))
+							{
+								return true;
+							}
+							
+							//debug($p);die;
+							return false;
+						},
+				'message' => 'First Name must be letters only'
+			])			
+		;
 
+		// Last Name
+        $validator
+            ->requirePresence('lastName', 'create', 'Last Name is required')
+            ->notEmpty('lastName', 'Last Name is required')			
+			->add('lastName', [
+				'minLength' => [
+					'rule' => ['minLength', 2],
+					'message' => 'Last Name must be at least 2 characters'
+				]
+			])
+			->add('lastName', 'custom', [
+				'rule' => function ($value, $context) {
+				
+							$p = $context['data']['lastName'];
+							
+							// name must contain only letters
+							if (ctype_alpha($p))
+							{
+								return true;
+							}
+							
+							//debug($p);die;
+							return false;
+						},
+				'message' => 'Last Name must be letters only'
+			])			
+		;
+		
         return $validator;
     }
 
@@ -69,7 +155,7 @@ class UsersTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->isUnique(['email']));
+        $rules->add($rules->isUnique(['email'], 'Email is already is use.'));
         return $rules;
     }
 }

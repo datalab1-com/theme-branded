@@ -140,10 +140,12 @@
 
 		<div class="col-sm-6">
 			<div class="text-center">	
-				<h3>Section with Image Column</h3>
+				<h2>Web Site Hosting</h2>
 			</div>
 
-			<p>The sections have a bunch of text.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>A website is vital to any modern business. Even if you sell locally or by word of mouth, your customers are looking for you on the web, if only to check your hours. Find everything you need here.</p>
+			
+<p>Hosting is what makes your site visible on the web. We offer fast, reliable plans for every need - from a basic blog to high-powered site. Designer? Developer? We've got you covered too.</p>			
 
 		</div><!-- col -->
 
@@ -187,6 +189,7 @@ NOT USED ------------------------------------------------>
 <!--------------------------------------------------------------------------------------->
 <!-- SECTION: 4 - 2 columns with side glyphs -->
 <!--------------------------------------------------------------------------------------->
+<?php if (false) : ?>
 		
 <section id="sectionFeatures2" class="sectionOrange">
 	<div class="container">	
@@ -265,7 +268,8 @@ NOT USED ------------------------------------------------>
 		</div><!-- text-center -->
 	</div><!-- container -->
 </section>
-		
+<?php endif; ?>
+	
 <!--------------------------------------------------------------------------------------->
 <!-- SECTION: Contact -->
 <!--------------------------------------------------------------------------------------->

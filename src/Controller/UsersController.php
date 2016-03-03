@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+//use Cake\Network\Request;
 /**
  * Users Controller
  *
@@ -46,7 +46,7 @@ class UsersController extends AppController
 	public function login()
 	{
 		if ($this->request->is('post')) 
-		{
+		{					
 			$user = $this->Auth->identify();
 			
 			if ($user) 
@@ -55,7 +55,31 @@ class UsersController extends AppController
 				return $this->redirect($this->Auth->redirectUrl());
 			}
 
-			$this->Flash->error('Your username or password is incorrect.');
+			$this->Flash->error('Your username or password is incorrect, please try again.');
+		}
+	}
+	
+	// not used yet: put this here to save it
+	// validator is defined in: Model/UsersTable.php
+	private function validate()
+	{
+		$errors = $this->Users->validator()->errors($this->request->data);
+		if (!empty($errors))
+		{
+			dump($errors);die;
+		}
+	}
+	
+	private function flashErrors($model)
+	{
+		if ($model->errors())
+		{
+			//dump($user->errors());
+			foreach($model->errors() as $k => $v)
+			{
+				foreach($v as $error)
+					$this->Flash->error($error);
+			}
 		}
 	}
 	
@@ -109,10 +133,7 @@ class UsersController extends AppController
      */
     public function signup()
     {
-        if ($this->request->is('post')) 
-		{
-			return $this->redirect(['action' => 'payment']);
-		}
+		$this->add();
 	}
     public function payment()
     {
@@ -123,13 +144,22 @@ class UsersController extends AppController
     public function add()
     {
         $user = $this->Users->newEntity();
-        if ($this->request->is('post')) {
+		
+        if ($this->request->is('post')) 
+		{
+			$this->request->data['ip_register'] = $this->request->clientIp();
+		
             $user = $this->Users->patchEntity($user, $this->request->data);
-            if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The user could not be saved. Please, try again.'));
+			
+            if ($this->Users->save($user)) 
+			{
+                $this->Flash->success(__('Account has been created.'));
+                return $this->redirect(['action' => 'payment']);
+            } 
+			else 
+			{
+				$this->flashErrors($user);
+                $this->Flash->error(__('Account could not be created. Please, try again.'));
             }
         }
         $this->set(compact('user'));

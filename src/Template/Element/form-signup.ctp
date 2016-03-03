@@ -1,7 +1,7 @@
 <div class="row">	
 	<div class="col-sm-6 col-sm-offset-3">				
 	
-		<?= $this->Form->create(null, ['url' => ['controller' => 'Users', 'action' => 'signup'], 'class' => 'form-horizontal']); ?>
+		<?= $this->Form->create(null, ['url' => ['controller' => 'Users', 'action' => 'signup'], 'id' => 'signup', 'class' => 'form-horizontal']); ?>
 		
 			<!-- ACCOUNT INFO ---------------------------------------------------->
 			
@@ -22,8 +22,10 @@
 				<div class="controlHelp marginBottom10">(At least 6 upper and lower case letters and numbers)</div>
 			
 			</div><!-- form-group -->
-							
-			<?= $this->Form->button(__('Create Account'), ['class' => 'btn btn-primary btn-md']) ?>
+					
+			<div class="text-center">			
+				<?= $this->Form->button(__('Create Account'), ['class' => 'btn btn-primary btn-md']) ?>
+			</div>
 		
 		<?= $this->Form->end() ?>
 	</div>

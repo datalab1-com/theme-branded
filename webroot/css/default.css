@@ -299,57 +299,70 @@ generic setting short-cuts
 		float: left;
 		max-width: 100px;
 	}
-			
-	.btn-lg {
-		font-size: 2em;
-	}
 	
-	.btn-md {
-		font-size: 1.5em;
-		font-weight: bold;
-	}
-	
-	  .form-control-big input[type="text"]
-	, .form-control-big input[type="email"]
-	, .form-control-big input[type="password"] 
-	, .form-control-big select 
-	{
-		font-size: 1.5em;
-		padding: 5px 5px 5px 10px;
-		margin-top: 10px;
-		height: 45px;
-		border-radius: 7px;
-	}
+.sectionHeader h1 {
+	margin-bottom: 30px;
+}
 
-	.form-control-big textarea
-	{
-		font-size: 1.5em;
-		padding: 5px 5px 5px 10px;
-		margin-top: 10px;
-		border-radius: 7px;
-	}
-	
-	form.form-horizontal {
-		padding: 0 20px;
-	}
-	
-	form .controlHelp {
-		font-size: 90%;
-		font-style: italic;
-	}
-		
-	.sectionHeader h1 {
-		margin-bottom: 30px;
-	}
+#sectionMap p {
+		color: #5C5F61;
+}
 
 .headerHeightOffset {
 	xheight: 72px;		/* this gets changed by js */
 	xmax-height: 72px;	/* used by js to reset after height gets changed by js */
 }
 
-.message {
-	padding: 10px;
-	font-size: 1.2em;
+/***************************************************************************************
+Forms
+***************************************************************************************/	
+
+.formHeaderBlue {
+	border-color: #3F98FD; 
+	color: #29A0C2;
+}
+			
+.btn-lg {
+	font-size: 2em;
+}
+	
+.btn-md {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+	
+  .form-control-big input[type="text"]
+, .form-control-big input[type="email"]
+, .form-control-big input[type="password"] 
+, .form-control-big select 
+{
+	font-size: 1.5em;
+	padding: 5px 5px 5px 10px;
+	margin-top: 10px;
+	height: 45px;
+	border-radius: 7px;
+}
+
+.form-control-big textarea
+{
+	font-size: 1.5em;
+	padding: 5px 5px 5px 10px;
+	margin-top: 10px;
+	border-radius: 7px;
+}
+	
+form.form-horizontal {
+	padding: 0 20px;
+}
+	
+form .controlHelp {
+	font-size: 90%;
+	font-style: italic;
+}
+
+form .control-label {
+	font-size: 1.3em;
+	font-weight: 400; font-family: 'Open Sans', sans-serif;
 }
 
 /*******************************************************************************
@@ -357,6 +370,12 @@ generic setting short-cuts
 Flash Messages
 
 ********************************************************************************/
+
+.message {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
 .error {
 	background-color: #FF5656;
 	color: white;

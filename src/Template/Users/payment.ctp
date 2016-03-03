@@ -1,7 +1,7 @@
 <div class="container">
 	
 	<div class="sectionHeader text-center">	
-		<h1 class="sectionImageBlue"><span class="sectionImageBlue glyphicon glyphicon-user"></span>&nbsp;Account Set Up</h1>
+		<h1 class="formHeaderBlue"><span class="formHeaderBlue glyphicon glyphicon-user"></span>&nbsp;Account Set Up</h1>
 	</div>	
 		
 	<div class="row">	
@@ -12,7 +12,8 @@
 				<div class="form-group form-control-big">	
 				
 					<label class="control-label" for="plan">Account Plan:</label>				
-					<?php echo $this->Form->select('plan', ['Basic Hosting $5.95/month', 'Pro Hosting, $9.95/month'],  ['empty' => '(Select Hosting Plan)', 'label' => false, 'class' => 'form-control marginBottom10']); ?>
+					<?php echo $this->Form->select('plan', ['Basic Hosting $5.95/month', 'Pro Hosting, $9.95/month'],  
+						['empty' => '(Select Hosting Plan)', 'label' => false, 'class' => 'form-control marginBottom10']); ?>
 					
 				</div>
 				
@@ -48,8 +49,9 @@
 					
 				</div>			
 				
-			
-				<?= $this->Form->button(__('Make Payment'), ['class' => 'btn btn-primary btn-md']) ?>
+				<div class="text-center">						
+					<?= $this->Form->button(__('Make Payment'), ['class' => 'btn btn-primary btn-md']) ?>
+				</div>
 			
 			<?= $this->Form->end() ?>
 		</div>
