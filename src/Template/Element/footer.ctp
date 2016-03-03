@@ -51,7 +51,7 @@
 			
 				<!-- BIG SIZES - 4 COLUMNS, LOGO ON THE RIGHT -->
 				<div class="hidden-sm hidden-xs">
-					<p class="marginTop20 footerLogoText footerLogoMain">DATALAB1</p>
+					<p class="marginTop20 footerLogoText footerLogoMain">DATALAB</p>
 					<p class="footerLogoText footerLogoSlug">HOSTING SOLUTIONS</p>
 					<!-- img class="" src="/img/logo-footer.png" /-->
 					<p class="copyright">&copy; <?= date("Y"); ?> - All Rights Reserved</p>
@@ -59,7 +59,7 @@
 				
 				<!-- SMALL AND XS - 1 COLUMN STACKED, LOGO AT THE BOTTOM -->
 				<div class="hidden-xl hidden-lg hidden-md clearfix">
-					<p class="footerLogoText footerLogoMainBigger">DATALAB1</p>
+					<p class="footerLogoText footerLogoMainBigger">DATALAB</p>
 					<p class="footerLogoText footerLogoSlug">HOSTING SOLUTIONS<br/>www.datalab1.com</p>
 					<!-- img class="" src="/img/logo-footer.png" /-->
 					<p class="copyright">&copy; <?= date("Y"); ?> - All Rights Reserved</p>

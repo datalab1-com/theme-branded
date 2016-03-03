@@ -7,19 +7,40 @@
 		<div class="marginBottom30 text-center">
 			<h1 class="font-open-sans-400"><span>Privacy Policy</span></h1>						
 		</div>
+				
+<p>
+Datalab Hosting respects the privacy of its customers and visitors and is committed to protecting the personal information of its customers and visitors. This Privacy Policy covers the site www.datalab1.com. We collect no personally identifiable information about you when you visit our site unless you choose to provide that information to us or as specifically outlined in this Policy. This Policy is incorporated into and subject to the Terms of Service ("TOS") Agreement found at Terms of Service.
+</p>
+
+<p>
+Datalab Hosting does NOT trade, rent or sell your personal information to any other organization or third party.
+This Policy describes our general principles for the collection and use of information from customers and visitors to our websites. We want to ensure that you understand how we will and will not use the information you entrust to us. In order to fully understand your rights we encourage you to read this Policy.
+</p>
+
+<p>
+For visitors, we've structured our websites so that, in general, you can visit us on Web without identifying yourself or revealing any personal information.
+</p>
+
+<p>
+For prospective and existing customers and partners, once you choose to provide us personally identifiable information (any information by which you can be identified), you can be assured that it will only be used to support your relationship with Datalab Hosting.
+</p>
+
+<p>
+Datalab Hosting has security measures in place to help prevent the loss, misuse and alteration of the information under our control. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+</p>
+
+<p>
+Datalab Hosting does not sell products or services for purchase by children. Customers must be at least 18 years of age. Any individual under the age of 18 ("Minor") must have a parent or guardian accept the Terms of Service in order for the Minor to become a Customer. If you are under 18, we strongly encourage you to use our website only with the involvement of a parent or guardian.
+</p>
+
+<p>
+Datalab Hosting reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change. The operative and effective version of this Policy will be the latest version available on the site.
+</p>
+
+<p>
+If you have questions or concerns regarding this Policy, you should contact us by email at support@datalab1.com.
+</p>
 		
-<h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
-		
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h4>Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC</h4>
-
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
-<h4>1914 translation by H. Rackham</h4>
-
-<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>	
-			
 	</div>
 </div>
 </div>
